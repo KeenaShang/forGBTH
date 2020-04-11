@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GBTHVolunteerTracking</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="status_available">Available</string>
+    <string name="status_blocked">Blocked</string>
+    <string name="status_responding">Responding</string>
+    <string name="status_on_scene">On Scene</string>
+    <string name="status_unavailable">Unavailable</string>
+    <string name="status_do_not_disturb">Do Not Disturb</string>
+    <string name="status">Select Your Current Status</string>
+    <string name="status_button">Set Status</string>
+    <string name="set_display_name">Set Display Name</string>
+    <string name="settings">Settings</string>
+    <string name="display_name">Display Name</string>
+    <string name="set_display_name_descrip">Set the name displayed for other devices to see you</string>
+    <string name="run_background">Run in background</string>
+    <string name="run_background_summary">Collect location data while the app is closed</string>
+    <string name="export">Export</string>
+    <string name="export_descrip">Export Your Location Data</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="lost_connection">Connection is lost</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="attempts_remaining">Number of attempts remaining</string>
+</resources>

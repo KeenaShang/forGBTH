@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android2:id="@+id/status_item"
+        android:showAsAction="never"
+        android2:title="@string/status_button" />
+    <item
+        android2:id="@+id/settings"
+        android2:title="@string/settings" />
+</menu>

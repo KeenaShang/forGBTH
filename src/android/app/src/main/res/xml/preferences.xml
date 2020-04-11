@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:id="@+id/display_name_preference"
+        android:defaultValue="@string/set_display_name"
+        android:key="display_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/set_display_name_descrip"
+        android:title="@string/display_name" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="run_in_background"
+        android:summary="@string/run_background_summary"
+        android:summaryOn="Background Service is on"
+        android:summaryOff="Background Service is off"
+        android:title="@string/run_background" />
+</PreferenceScreen>

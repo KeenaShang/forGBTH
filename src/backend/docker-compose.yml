@@ -1,0 +1,17 @@
+version: '3'
+services:
+  server:
+    container_name: server
+    build: .
+    ports:
+      - 3000:3000 # public:docker
+    environment:
+      - PORT=3000
+      - MONGO_DOCKER_URI=mongodb://mongo:27017/devDB
+    depends_on:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - 27017:27017
